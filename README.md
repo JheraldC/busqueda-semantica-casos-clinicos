@@ -14,7 +14,7 @@ El frontend utiliza **Create React App / react-scripts**, según [package.json](
 
 ## Arquitectura
 
-La interfaz React consulta al backend FastAPI. El backend prepara embeddings de los casos, busca similitudes y, para las funciones generativas, utiliza la configuración de inferencia del código. El servicio complementario está en [API MedGemma](https://github.com/JheraldC/VM-Busqueda-Semantica-con-IA-Casos-Clinicos).
+La interfaz React consulta al backend FastAPI. El backend prepara embeddings de los casos, busca similitudes y, para las funciones generativas, utiliza la configuración de inferencia del código. El servicio complementario está en [API MedGemma](https://github.com/JheraldC/api-medgemma-fastapi).
 
 | Ruta | Contenido |
 | --- | --- |
