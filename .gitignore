@@ -20,3 +20,19 @@ __pycache__/
 .venv
 venv/
 env/
+
+# Local environment and generated files
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+myenv/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+node_modules/
+build/
+dist/
